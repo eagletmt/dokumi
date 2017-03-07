@@ -1,3 +1,12 @@
+PATH
+  remote: .
+  specs:
+    dokumi (1.0.0)
+      nokogiri
+      octokit
+      rugged
+      xcodeproj
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -42,10 +51,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  nokogiri
-  octokit
-  rugged
-  xcodeproj
+  dokumi!
 
 BUNDLED WITH
    1.14.4
